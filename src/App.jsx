@@ -13,6 +13,7 @@ const playerPromise = fetchPlayers();
 function App() {
   const [toggle, setToggle] = useState(true);
   const [coin, setCoin] = useState(6000000000);
+  const [purchasedPlayers, setPurchasedPlayers] = useState([])
   return (
     <>
       {/* navbar */}
@@ -32,17 +33,15 @@ function App() {
         <h2 className="font-bold text-2xl">Available Players</h2>
         <div>
           <button
-            className={`btn rounded-l-xl border-r-0  ${
-              toggle === true ? "bg-[#E7fe29]" : ""
-            }`}
+            className={`btn rounded-l-xl border-r-0  ${toggle === true ? "bg-[#E7fe29]" : ""
+              }`}
             onClick={() => setToggle(true)}
           >
             Available Players
           </button>
           <button
-            className={`btn rounded-r-xl border-l-0 ${
-              toggle === false ? "bg-[#E7fe29]" : ""
-            }`}
+            className={`btn rounded-r-xl border-l-0 ${toggle === false ? "bg-[#E7fe29]" : ""
+              }`}
             onClick={() => setToggle(false)}
           >
             Selected Players
@@ -60,12 +59,16 @@ function App() {
           >
             <Availableplayers
               setCoin={setCoin}
-              coin = {coin}
+              coin={coin}
               playerPromise={playerPromise}
+              setPurchasedPlayers={setPurchasedPlayers}
+              purchasedPlayers={purchasedPlayers}
             ></Availableplayers>
           </Suspense>
         ) : (
-          <Selectedplayers></Selectedplayers>
+          <Selectedplayers
+            purchasedPlayers={purchasedPlayers}
+          ></Selectedplayers>
         )}
       </div>
     </>

@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import manIcon from "../../assets/user-1.png";
 import report from "../../assets/report-1.png";
-const PlayerCard = ({ player, setCoin, coin }) => {
+const PlayerCard = ({ player, setCoin, coin, purchasedPlayers, setPurchasedPlayers }) => {
+  const handlePlayer = (pData) =>{
+    setSelected(true);
+    setCoin(coin - player.price)
+    setPurchasedPlayers([...purchasedPlayers,pData])
+  }
   const [selected, setSelected] = useState(false);
   return (
     <>
@@ -43,10 +48,7 @@ const PlayerCard = ({ player, setCoin, coin }) => {
             </p>
             <button
               disabled={selected === false ? false : true}
-              onClick={() => {
-                setSelected(true);
-                setCoin(coin - player.price)
-              }}
+              onClick={()=>handlePlayer(player)}
               className="btn cursor-pointer"
             >
               {selected === false ? "Choose Player" : "Selected"}

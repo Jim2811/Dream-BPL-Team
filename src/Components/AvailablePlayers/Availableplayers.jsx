@@ -1,7 +1,7 @@
 import React, { use } from "react";
 
 import PlayerCard from "../PlayerCard/PlayerCard";
-const Availableplayers = ({ playerPromise, setCoin, coin }) => {
+const Availableplayers = ({ playerPromise, setCoin, coin,purchasedPlayers, setPurchasedPlayers }) => {
   const playerData = use(playerPromise);
   return (
     <>
@@ -12,6 +12,8 @@ const Availableplayers = ({ playerPromise, setCoin, coin }) => {
             player={player}
             coin = {coin}
             key={player.id}
+            setPurchasedPlayers = {setPurchasedPlayers}
+            purchasedPlayers = {purchasedPlayers}
           ></PlayerCard>
         ))}
       </div>
