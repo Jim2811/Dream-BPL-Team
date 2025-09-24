@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "player_image": "https://i.ibb.co.com/7t8B7H2d/images.jpg",
+    "player_name": "Tamim Iqbal",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": 8.7,
+    "bating_style": "Left-handed",
+    "bowling_style": "N/A",
+    "price": 475000
+  },
+  {
+    "id": 2,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "rating": 9.4,
+    "bating_style": "Left-handed",
+    "bowling_style": "Slow left-arm orthodox",
+    "price": 520000
+  },
+  {
+    "id": 3,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Chris Gayle",
+    "player_country": "West Indies",
+    "playing_role": "Batsman",
+    "rating": 9.1,
+    "bating_style": "Left-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 490000
+  },
+  {
+    "id": 4,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Mustafizur Rahman",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 8.9,
+    "bating_style": "Left-handed",
+    "bowling_style": "Left-arm medium-fast",
+    "price": 410000
+  },
+  {
+    "id": 5,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Andre Russell",
+    "player_country": "West Indies",
+    "playing_role": "All-rounder",
+    "rating": 9.0,
+    "bating_style": "Right-handed",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 550000
+  },
+  {
+    "id": 6,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Mashrafe Mortaza",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 8.1,
+    "bating_style": "Right-handed",
+    "bowling_style": "Right-arm medium-fast",
+    "price": 350000
+  },
+  {
+    "id": 7,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Kieron Pollard",
+    "player_country": "West Indies",
+    "playing_role": "All-rounder",
+    "rating": 8.6,
+    "bating_style": "Right-handed",
+    "bowling_style": "Right-arm medium-fast",
+    "price": 460000
+  },
+  {
+    "id": 8,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Mushfiqur Rahim",
+    "player_country": "Bangladesh",
+    "playing_role": "Wicketkeeper-Batsman",
+    "rating": 8.8,
+    "bating_style": "Right-handed",
+    "bowling_style": "N/A",
+    "price": 430000
+  },
+  {
+    "id": 9,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Rashid Khan",
+    "player_country": "Afghanistan",
+    "playing_role": "All-rounder",
+    "rating": 9.6,
+    "bating_style": "Right-handed",
+    "bowling_style": "Right-arm leg-break",
+    "price": 600000
+  },
+  {
+    "id": 10,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Taskin Ahmed",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 8.5,
+    "bating_style": "Left-handed",
+    "bowling_style": "Right-arm fast",
+    "price": 380000
+  },
+  {
+    "id": 11,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Mahedi Hasan",
+    "player_country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "rating": 8.3,
+    "bating_style": "Right-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 310000
+  },
+  {
+    "id": 12,
+    "player_image": "https://i.ibb.co.com/j1K0Dt1/desktop-wallpaper-list-of-most-liked-facebook-pages-in-bangladesh-shakib-al-hasan.jpg",
+    "player_name": "Litton Das",
+    "player_country": "Bangladesh",
+    "playing_role": "Wicketkeeper-Batsman",
+    "rating": 8.4,
+    "bating_style": "Right-handed",
+    "bowling_style": "N/A",
+    "price": 390000
+  }
+]
